@@ -32,7 +32,7 @@ public class studentUpdate {
 
             Stmnt = Conn.createStatement();
 
-            Stmnt.executeUpdate("update student set lastName = 'Ramadoss Baskaran' where studentId = '8'");
+            Stmnt.executeUpdate("update student set studentId = '7' where studentId = '8'");
             System.out.println("Student details has been updated in the DB");
 
         }catch (Exception e){
